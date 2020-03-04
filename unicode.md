@@ -1,8 +1,8 @@
 # Contents
 
-<a href="#whatis">What Is Unicode?</a><br>
-<a href="#structure">General Structure</a><br>
-<a href="#encodings">Unicode Encodings</a>
+<ul><a href="#whatis">What Is Unicode?</a></ul>
+<ul><a href="#structure">General Structure</a></ul>
+<ul><a href="#encodings">Unicode Encodings</a></ul>
 <ul>
   <li><a href="#utf8">UTF-8</a>
     <ul>
