@@ -1,7 +1,7 @@
 # Contents
 
 
-<h1 id=whatis>What Is Unicode?</h1>
+<h1 id="whatis">What Is Unicode?</h1>
 
 **Unicode** is the universal standard for encoding characters. It was suggested in 1991 by the Unicode Consortium. Today, it is the most commonly used encoding standard in the world. The widespread use of Unicode helped to solve the issues of the older encodings:
 
@@ -14,7 +14,7 @@ Unicode 12.0 includes all modern and most historical scripts, graphic symbols, a
 Unicode is supported by all modern operating systems, programming languages, libraries, and web browsers.
 
 
-<h1 id=structure>General Structure</h1>
+<h1 id="structure">General Structure</h1>
 
 Each Unicode character is provided a unique **code point** – a hexadecimal number with a “U+” prefix:
 
@@ -40,7 +40,7 @@ The full range of code points is called the **codespace** and includes the value
 **Planes 15 and 16 – Private Use Plans: U+F0000–​U+10FFFF.** The third parties can use the code points on these planes to assign them to any characters. The decoding of such characters requires an agreement between two parties on their interpretation.
 
 
-<h1 id=encodings>Unicode Encodings</h1>
+<h1 id="encodings">Unicode Encodings</h1>
 
 In Unicode, the code points (U+xxxx) can be represented in bytes in three different ways. The three encoding types are called UTF-8, UTF-16, and UTF-32. UTF stands for “Unicode Transformation Format”. The number in the name indicates the number of bits in the smallest code unit used for encoding a character. 
 
@@ -48,9 +48,9 @@ There used to be more UTF encodings, but they are no longer supported by the Uni
 
 Below, you’ll find more information about the UTF-8 and UTF-16 encodings.
 
-<h2 id=utf8>UTF-8</h2>
+<h2 id="utf8">UTF-8</h2>
 
-<h3 id=utf8description>Description</h3>
+<h3 id="utf8description">Description</h3>
 
 In UTF-8, a single character is encoded using from 1 to 4 bytes (8, 16, 24, or 32 bits). The number of bytes in one character depends on a code point assigned to this character.
 
@@ -69,7 +69,7 @@ The code points in the range U+0800–U+FFFF mainly represent Chinese, Japanese,
 
 The code points in the range U+10000–U+10FFFF represent very rare characters which do not belong to the Basic Multilingual Plane – they are encoded using 4 bytes.
 
-<h3 id=utf8structure>Encoding Structure</h3>
+<h3 id="utf8structure">Encoding Structure</h3>
 
 It’s easy to identify 1-, 2-, 3-, and 4-byte UTF-8 characters in a row of code units (“x” represents the other bits in the code unit):
 
@@ -89,20 +89,20 @@ As you can see, each UTF-8 character indicates itself, which has its advantages:
 * An incomplete byte sequence will never be decoded, since the number of bytes in the sequence is always indicated by the prefix in the first byte.
 * The first byte never starts with 10, so it can always be distinguished from the following bytes which always start with 10. If you run a search, it will never find the byte sequence for one character beginning in the middle of a byte sequence for another character.
 
-<h3 id=utf8advantages>Advantages</h3>  
+<h3 id="utf8advantages">Advantages</h3>  
 
 * Worldwide popularity: UTF-8 is the most used encoding nowadays
 * Compatibility with ASCII: English text encoded in ASCII looks the same in UTF-8
 * Saving space when working with Latin-based scripts: most common Latin characters require only a single byte     
 * Easy decoding and search due to the smart encoding structure  
 
-<h3 id=utf8disadvantages>Disadvantages</h3>
+<h3 id="utf8disadvantages">Disadvantages</h3>
 
 * Less space efficiency when working with Asian characters: in UTF-8, an Asian character requires 3 bytes, while in UTF&#8209;16 it requires only 2 bytes
 
 <h2 id=utf16>UTF-16</h2>
 
-<h3 id=utf16description>Description</h3>
+<h3 id="utf16description">Description</h3>
 
 In UTF-16, a character is encoded using 2 or 4 bytes (code units consisting of 16 or 32 bits).
 
@@ -117,7 +117,7 @@ The characters out of BMP (U+10000–U+10FFFF) are encoded using 4 bytes – two
 
 The code points in the range U+D800–U+DFFF are reserved for encoding surrogate pairs.
 
-<h3 id=utf16structure>Encoding Structure</h3>
+<h3 id="utf16structure">Encoding Structure</h3>
 
 Each character in the ranges U+0000–U+D7FF and U+E000–U+FFFF is encoded as one 16-bit code unit equal to the corresponding code point value. In the table below, you can see how Latin, Cyrillic, and Chinese characters are encoded in UTF-16 compared to the UTF-8 encoding (spaces between bytes were added for better readability):
 
@@ -216,11 +216,11 @@ Encoding characters in the range U+10000–U+10FFFF is more complicated. To illu
    
 For correct interpretation of the byte order, the **Byte Order Mark** (U+FEFF) is used at the beginning of a UTF-16 text. Alternatively, you can specify **UTF-16BE** (big-endian) or **UTF-16LE** (little-endian) as the encoding type – in this case, using the BOM is not required.
 
-<h3 id=utf16advantages>Advantages</h3>
+<h3 id="utf16advantages">Advantages</h3>
 
 * Saving space when working with Asian characters: they require only 2 bytes in UTF-16 compared to 3 bytes in UTF-8
 
-<h3 id=utf16disadvantages>Disadvantages</h3>
+<h3 id="utf16disadvantages">Disadvantages</h3>
 
 * Less space efficiency when working with Latin characters: they need 2 bytes in UTF-16 compared to 1 byte in UTF-8
 * Incompatibility with ASCII
