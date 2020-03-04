@@ -95,7 +95,7 @@ As you can see, each UTF-8 character indicates itself, which has its advantages:
 
 ### Disadvantages
 
-* Less space efficiency when working with Asian characters: in UTF-8, an Asian character requires 3 bytes, while in UTF-16 it requires only 2 bytes
+* Less space efficiency when working with Asian characters: in UTF-8, an Asian character requires 3 bytes, while in UTF&#8209;16 it requires only 2 bytes
 
 ## UTF-16
 
