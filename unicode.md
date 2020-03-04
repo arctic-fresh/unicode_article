@@ -58,7 +58,7 @@ In UTF-8, a single character is encoded using from 1 to 4 bytes (8, 16, 24, or 3
 | U+0800–U+FFFF     | 3 (24 bit)      |
 | U+10000–U+10FFFF  | 4 (32 bit)      |
 
-The first 128 characters in the range U+0000–U+007F are encoded using only 1 byte (8 bits). They correspond with ASCII – one of the oldest encoding standards which includes all basic Latin characters, numbers, punctuation marks, the most used symbols, and some control (non-printable) characters. In ASCII, a character also requires 1 byte. UTF-8 was specially designed to be ASCII-compatible, and this is the key advantage of this encoding: you can still work with ASCII-based legacy programs.  
+The 128 characters in the range U+0000–U+007F are encoded using only 1 byte (8 bits). They correspond with ASCII – one of the oldest encoding standards which includes all basic Latin characters, numbers, punctuation marks, the most used symbols, and some control (non-printable) characters. In ASCII, a character also requires 1 byte. UTF-8 was specially designed to be ASCII-compatible, and this is the key advantage of this encoding: you can still work with ASCII-based legacy programs.  
 
 The code points in the range U+0080–U+07FF represent additional Latin characters and most non-Latin characters used in modern languages, except for Asian characters: Cyrillic, Greek, Arabic, Armenian, Hebrew, and some other modern scripts. The characters from this range are encoded using 2 bytes. 
 
