@@ -223,7 +223,7 @@ For correct interpretation of the byte order, the **Byte Order Mark** (U+FEFF) i
 * Incompatibility with ASCII
 
 
-**You can learn more about the latest version of Unicode on the official website: http://www.unicode.org/versions/Unicode12.1.0/.**
+**You can learn more about the latest version of Unicode on the official website: <a href="http://www.unicode.org/versions/Unicode12.1.0/">http://www.unicode.org/versions/Unicode12.1.0/</a>.**
 
 
 
