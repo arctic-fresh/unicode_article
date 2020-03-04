@@ -195,13 +195,13 @@ Encoding characters in the range U+10000–U+10FFFF is more complicated. To illu
    > The high 10 bits: **0000111101 (xxxxxxxxxx)**<br>
    > The low 10 bits: **1000000001 (yyyyyyyyyy)**
 
-2. The high 10 bits are added to D800<sub>16</sub> (the first code point from the reserved range) as follows:
+2. The high 10 bits are added to the binary value of U+D800 (the first code point from the reserved range) as follows:
 
    > 110110**xxxxxxxxxx** = 110110**0000111101**
 
    The resulting number is the first 16-bit unit (the high surrogate).
    
-3. The low 10 bits are added to DC00<sub>16</sub> (which is also the code point from the reserved range) as follows:
+3. The low 10 bits are added to the binary value of U+DC00 (which is also the code point from the reserved range) as follows:
    
    > 110111**yyyyyyyyyy** = 110111**1000000001**
 
