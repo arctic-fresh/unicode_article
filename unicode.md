@@ -117,8 +117,8 @@ The code points in the range U+D800–U+DFFF are reserved for encoding surrogate
 ### Encoding Structure
 
 Each character in the ranges U+0000–U+D7FF and U+E000–U+FFFF is encoded as one 16-bit code unit equal to the corresponding code point value. In the table below, you can see how Latin, Cyrillic, and Chinese characters are encoded in UTF-16 compared to the UTF-8 encoding (spaces between bytes were added for better readability):
-<div>
-<table class="tg">
+
+<p><table class="tg">
   <tr>
     <th class="tg-cly1" colspan="2">g (U+0067)</th>
   </tr>
@@ -139,7 +139,7 @@ Each character in the ranges U+0000–U+D7FF and U+E000–U+FFFF is encoded as o
     <td class="tg-0lax">01100111</td>
   </tr>
 </table>
-</div>
+</p>
 <table class="tg">
   <tr>
     <th class="tg-cly1" colspan="2">д (U+0434)</th>
