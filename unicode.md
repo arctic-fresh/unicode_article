@@ -140,7 +140,7 @@ Each character in the ranges U+0000–U+D7FF and U+E000–U+FFFF is encoded as o
   </tr>
 </table>
 </p>
-<table class="tg">
+<p><table class="tg">
   <tr>
     <th class="tg-cly1" colspan="2">д (U+0434)</th>
   </tr>
@@ -161,8 +161,8 @@ Each character in the ranges U+0000–U+D7FF and U+E000–U+FFFF is encoded as o
     <td class="tg-0lax">11010000 10110100</td>
   </tr>
 </table>
-
-<table class="tg">
+</p>
+<p><table class="tg">
   <tr>
     <th class="tg-cly1" colspan="2">信 (U+4FE1)</th>
   </tr>
@@ -182,7 +182,7 @@ Each character in the ranges U+0000–U+D7FF and U+E000–U+FFFF is encoded as o
     <td class="tg-0lax">Binary representation in UTF-8</td>
     <td class="tg-0lax">11100100 10111111 10100001</td>
   </tr>
-</table>
+</table></p>
 
 Encoding characters in the range U+10000–U+10FFFF is more complicated. To illustrate it, let’s encode the **emoji 😁 (U+1F601)**:
 
