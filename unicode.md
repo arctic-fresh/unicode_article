@@ -1,45 +1,23 @@
 # Contents
 
-<ul><li><a href="#whatis">What Is Unicode?</a></li>
+<li><a href="#whatis">What Is Unicode?</a></li>
 <li><a href="#structure">General Structure</a></li>
 <li><a href="#encodings">Unicode Encodings</a></li>
 <ul>
   <li><a href="#utf8">UTF-8</a>
     <ul>
-      <li>1.1</li>
-      <li>1.2</li>
-      <li>1.2</li>
-      <li>1.2</li>
+      <li><a href="#utf8description">Description</a></li>
+      <li><a href="#utf8structure">Encoding Structure</a></li>
+      <li><a href="#utf8advantages">Advantages</a></li>
+      <li><a href="#utf8disadvantages">Disadvantages</a></li>
     </ul>
    </li>
   <li><a href="#utf16">UTF-16</a>
     <ul>
-      <li>1.1</li>
-      <li>1.2</li>
-      <li>1.2</li>
-      <li>1.2</li>
-    </ul>
-   </li>
-</ul>
-  </ul>
-
-<ul>
-  <li><a href="#whatis">What Is Unicode?</a></li>
-  <li><a href="#structure">General Structure</a></li>
-  <li><a href="#encodings">Unicode Encodings</a>
-    <ul>
-      <li><a href="#utf8">UTF-8</a></li>
-      <li>1.2</li>
-      <li>1.2</li>
-      <li>1.2</li>
-    </ul>
-   </li>
-  <li><a href="#utf16">UTF-16</a>
-    <ul>
-      <li>1.1</li>
-      <li>1.2</li>
-      <li>1.2</li>
-      <li>1.2</li>
+      <li><a href="#utf16description">Description</a></li>
+      <li><a href="#utf16structure">Encoding Structure</a></li>
+      <li><a href="#utf16advantages">Advantages</a></li>
+      <li><a href="#utf16disadvantagess">Disadvantages</a></li>
     </ul>
    </li>
 </ul>
