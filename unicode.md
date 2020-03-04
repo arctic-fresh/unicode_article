@@ -1,4 +1,7 @@
-# What Is Unicode?
+# Contents
+
+
+<h1 id=whatis>What Is Unicode?</h1>
 
 **Unicode** is the universal standard for encoding characters. It was suggested in 1991 by the Unicode Consortium. Today, it is the most commonly used encoding standard in the world. The widespread use of Unicode helped to solve the issues of the older encodings:
 
