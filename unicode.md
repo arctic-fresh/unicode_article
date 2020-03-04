@@ -1,5 +1,26 @@
 # Contents
 
+<ul>
+  <li><a href="#whatis">What Is Unicode?</a></li>
+  <li><a href="#structure">General Structure</a></li>
+  <li><a href="#encodings">Unicode Encodings</a>
+    <ul>
+      <li><a href="#utf8">UTF-8</a></li>
+      <li>1.2</li>
+      <li>1.2</li>
+      <li>1.2</li>
+    </ul>
+   </li>
+  <li><a href="#utf16">UTF-16</a>
+    <ul>
+      <li>1.1</li>
+      <li>1.2</li>
+      <li>1.2</li>
+      <li>1.2</li>
+    </ul>
+   </li>
+</ul>
+
 
 <h1 id="whatis">What Is Unicode?</h1>
 
@@ -100,7 +121,7 @@ As you can see, each UTF-8 character indicates itself, which has its advantages:
 
 * Less space efficiency when working with Asian characters: in UTF-8, an Asian character requires 3 bytes, while in UTF&#8209;16 it requires only 2 bytes
 
-<h2 id=utf16>UTF-16</h2>
+<h2 id="utf16">UTF-16</h2>
 
 <h3 id="utf16description">Description</h3>
 
