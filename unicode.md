@@ -1,6 +1,6 @@
 # Contents
 
-<li><a href="#whatis">What Is Unicode?</a></li>
+<ul><li><a href="#whatis">What Is Unicode?</a></li>
 <li><a href="#structure">General Structure</a></li>
 <li><a href="#encodings">Unicode Encodings</a></li>
 <ul>
@@ -21,6 +21,7 @@
     </ul>
    </li>
 </ul>
+  </ul>
 
 <ul>
   <li><a href="#whatis">What Is Unicode?</a></li>
