@@ -17,7 +17,7 @@
       <li><a href="#utf16description">Description</a></li>
       <li><a href="#utf16structure">Encoding Structure</a></li>
       <li><a href="#utf16advantages">Advantages</a></li>
-      <li><a href="#utf16disadvantagess">Disadvantages</a></li>
+      <li><a href="#utf16disadvantages">Disadvantages</a></li>
     </ul>
    </li>
 </ul>
